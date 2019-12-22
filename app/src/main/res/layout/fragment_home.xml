@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".home" android:background="@color/colorPrimaryDark">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+                android:layout_width="421dp"
+                android:layout_height="@dimen/nav_header_height" app:srcCompat="@drawable/logo"
+                android:id="@+id/imageView4"/>
+        <LinearLayout android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+        >
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:text="Select difficulty:"
+                            android:layout_width="wrap_content"
+                            android:textSize="25sp"
+                            android:layout_height="wrap_content" android:id="@+id/textView2"
+                            android:textColor="@color/colorAccent" android:textStyle="bold"/>
+                    <Button
+                            android:text="Beginner"
+                            android:textSize="20sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/button"
+                            android:background="#D4D4D4"/>
+                    <Button
+                            android:text="Intermediate"
+                            android:textSize="20sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/button2"
+                            android:background="#FAACACAC"/>
+                    <Button
+                            android:text="Expert"
+                            android:textSize="20sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/button3"
+                            android:background="#7F7F7F"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+             tools:context=".menu">
+    <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="match_parent"-->
+
+                <!--android:padding="20dp"-->
+                <!--android:layout_height="218dp">-->
+            <!--<Button-->
+                    <!--android:text="About"-->
+                    <!--android:layout_margin="20dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="122dp" android:id="@+id/button8" android:layout_weight="1"/>-->
+            <!--<Button-->
+                    <!--android:text="Account" android:layout_margin="20dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="122dp" android:id="@+id/button9" android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent" android:layout_margin="20dp"
+                android:layout_height="198dp">
+            <Button
+                    android:text="About"
+                    android:layout_width="wrap_content" android:layout_margin="20dp"
+                    android:layout_height="125dp" android:id="@+id/button6" android:layout_weight="1"/>
+            <Button
+                    android:text="Settings"
+                    android:layout_width="wrap_content" android:layout_margin="20dp"
+                    android:layout_height="129dp" android:id="@+id/button7" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

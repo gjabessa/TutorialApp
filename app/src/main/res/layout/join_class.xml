@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="170dp"
+              android:padding="5dp"
+              android:layout_height="wrap_content" android:id="@+id/about">
+
+    <TextView
+            android:text="Join Class"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+    <TextView
+            android:text="Enroll in the upcoming salsa class"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" android:id="@+id/textView5"/>
+    <TextView
+            android:text="September"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" android:id="@+id/textView7"/>
+    <TextView
+            android:text="Bole, infront of Plaza bldg. Beside cameroon st."
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" android:id="@+id/textView11"/>
+    <TextView
+            android:text="Phone: +251940262656"
+            android:layout_width="match_parent"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content" android:id="@+id/textView12"/>
+    <TextView
+            android:text="email: shine@email.info"
+            android:layout_width="match_parent"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content" android:id="@+id/textView13"/>
+    <Button
+            android:text="Join Class"
+            android:layout_width="match_parent"
+            android:tag="https://www.tibebtech.com"
+            android:layout_height="wrap_content" android:id="@+id/joinclass" android:background="#FFC107"/>
+</LinearLayout>

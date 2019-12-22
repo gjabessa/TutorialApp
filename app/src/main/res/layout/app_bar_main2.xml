@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity">
+    <com.google.android.material.appbar.AppBarLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+        <com.google.android.material.navigation.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_vertical_spacing" android:background="@color/colorPrimaryDark">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="93dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:theme="@style/AppTheme"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimaryDark" app:navigationIcon="@drawable/round_menu"/>
+            </LinearLayout>
+            <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="120dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="120dp" app:srcCompat="@drawable/logo" android:id="@+id/imageView2"
+            />
+
+        </com.google.android.material.navigation.NavigationView>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/content_main2"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

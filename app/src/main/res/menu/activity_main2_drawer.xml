@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Browse">
+        <menu>
+        <item
+                android:id="@+id/beginner"
+                android:icon="@drawable/round_menu"
+                android:title="Salsa"/>
+            <item
+                    android:id="@+id/intermediate"
+                    android:icon="@drawable/round_menu"
+                    android:title="Bachata"/>
+            <item
+                    android:id="@+id/expert"
+                    android:icon="@drawable/round_menu"
+                    android:title="Kizomba"/>
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="Menu">
+        <menu>
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="About"/>
+            <item
+                    android:id="@+id/nav_join"
+                    android:icon="@drawable/ic_menu_group"
+                    android:title="Join class"/>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu_share"/>
+
+            <item android:id="@+id/nav_logout"
+                  android:title="Logout"/>
+            <item android:title=""/>
+            <item android:title=""/>
+        </menu>
+    </item>
+
+</menu>

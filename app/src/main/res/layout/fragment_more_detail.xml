@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/header_vertical_spacing"
+              tools:context=".moreDetail">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:background="@color/colorPrimary"
+                android:verticalScrollbarPosition="defaultPosition">
+            <TextView
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="@string/hello_blank_fragment" android:id="@+id/title" app:fontFamily="casual"/>
+            <ImageView
+                    android:src="@drawable/ic_launcher_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="296dp" android:id="@+id/imageV"/>
+            <TextView
+                    android:text="https://www.tibebtech.com/"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="5dp"
+                    android:autoLink="web"
+                    android:textColor="@color/colorAccent"
+                    android:layout_gravity="right"
+                    android:layout_height="wrap_content" android:id="@+id/videolink"/>
+            <TextView
+                    android:text="TextView dfsdjklrew fdsjklrew fdjrweklj fdsjklrwe"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:layout_height="168dp" android:id="@+id/descr"/>
+            <Button
+                    android:text="Next Step"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" android:id="@+id/button4"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
